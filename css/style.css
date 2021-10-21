@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #eee;
+}
+nav {
+    width: 50%;
+    margin: 0 auto;
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    padding: 10px 15px;
+    background: #000;
+    margin-left: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+nav ul li:hover {
+    background: orange;
+    cursor: pointer;
+}
+.active {
+    background: orange;
+}
+
+section {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    width: 32%;
+    background: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.img {
+    text-align: center;
+}
+.img img {
+    width: 25%;
+}
